@@ -7,7 +7,7 @@ A solution for embedding and reading object data from plain texts stored in loca
 We want:
 1. to communicate with any data source (through adapters) and embed entries from the data source into my plain text file.
 2. to not to lose my data when the source, e.g. a piece of software or a public database, is down or completely gone.
-3. to not to lose all of your data when even the local storage is gone, and only the text is left.
+3. to not to lose all of my data when even the local storage is also gone, and only the text is left.
 4. to easily use structured data along with your plain text without the need to launch a server or a program first, because your data are all stored locally.
 5. to be able to sync with the data source bi-directionally when needed.
 6. our data to be completely open (using plain text and standard JSON) and avoid any possibility of being lock into some proprietory format.
