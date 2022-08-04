@@ -4,10 +4,11 @@ A solution for embedding and reading object data from plain texts stored in loca
 # Why textual-object solution
 
 We want:
-1. to not to lose data when the source, e.g. a piece of software, is down.
-2. to not to lose all of your data when even the local storage is gone, and only the text is left.
-3. to easily use structured data along with your plain text without the need to launch a server or a program first, because your data are all stored locally.
-4. to be able to sync with the data source bi-directionally when needed.
+1. to communicate with any data source (through adapters) and embed entries from the data source into my plain text file.
+2. to not to lose my data when the source, e.g. a piece of software or a public database, is down or completely gone.
+3. to not to lose all of your data when even the local storage is gone, and only the text is left.
+4. to easily use structured data along with your plain text without the need to launch a server or a program first, because your data are all stored locally.
+5. to be able to sync with the data source bi-directionally when needed.
 
 # Components
 
