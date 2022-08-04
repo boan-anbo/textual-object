@@ -10,7 +10,7 @@ We want:
 3. to not to lose all of my data when even the local storage is also gone, and only the text is left.
 4. to easily use structured data along with your plain text without the need to launch a server or a program first, because your data are all stored locally.
 5. to be able to sync with the data source bi-directionally when needed.
-6. our data to be completely open (using plain text and standard JSON) and avoid any possibility of being lock into some proprietory format.
+6. our data to be completely open (using plain text and open-source local sqlite database) and avoid any possibility of being lock into some proprietory format.
 
 In a sense, you can think of textual object system as **a digital citation system**, only you are not merely referencing an _abstract_ article or a _book_, but an _actual_ (e.g. not pointing to some location in a remote server) digital data object stored locally which you can use any time along with your plain text.
 
@@ -22,7 +22,7 @@ Typical use cases:
 
 ## Textual object store: TOF
 
-A local store for TO object saved in JSON format.
+A local store for TO object saved in sqlite databasae.
 
 ---
 
