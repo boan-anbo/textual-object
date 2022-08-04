@@ -22,7 +22,7 @@ Typical use cases:
 
 ## Textual object store: TOF
 
-A local store for TO object saved in sqlite databasae.
+A local store for TO object saved in extremely robust and open sqlite databasae.
 
 ---
 
