@@ -14,9 +14,30 @@ We want:
 
 A local store for TO object saved in JSON format.
 
+---
+
+
 ## Textual object markup language: TOL
 
 The language used for markers embedded in the text which is readable and contains metadata point to its entry in the local store.
+
+---
+
+# TOL Marker format
+
+TOL marker is a short and succint textual representation of an entry in TOF.
+
+## TOL Marker Format
+
+The TOL market format is simple and fully readable:
+
+- Default: `[[KEY 1: Value 1|KEY 2: VALUE 2| KEY x: VALUE x ...]]`
+
+You could type it by hand, but it's highly recommended to let [TOE](#TOE) generate the marker for you, at least the key information, such as the ID and SID.
+
+You can also customize the symbol to your liking or to avoid conflicts with some other Plain languages. For example:
+
+- Customized: `{{KEY 1: Value 1| Key 2: Value 2| Key 3: Value 3...}}`
 
 # TOL Fields
 
@@ -40,3 +61,5 @@ Unacceptable: {{ID: 123| ID: 456}}
 Example:
 
 [[ID: xxx; ]]
+
+# TOE: Textual object engine
