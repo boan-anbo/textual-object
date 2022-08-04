@@ -12,7 +12,7 @@ We want:
 5. to be able to sync with the data source bi-directionally when needed.
 6. our data to be completely open (using plain text and standard JSON) and avoid any possibility of being lock into some proprietory format.
 
-In a sense, you can think of textual object system as **a digital citation system**, only you are not merely referencing an _abstract_ article or a _book_, but an _actual_ (e.g. not pointing to some location in a remote server) digital object stored locally which you can use any time along with your plain text.
+In a sense, you can think of textual object system as **a digital citation system**, only you are not merely referencing an _abstract_ article or a _book_, but an _actual_ (e.g. not pointing to some location in a remote server) digital data object stored locally which you can use any time along with your plain text.
 
 Typical use cases:
 - I want to save reading note as a complex object and insert into my writing.
