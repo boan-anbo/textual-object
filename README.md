@@ -4,7 +4,7 @@ A solution for embedding and reading object data from plain texts stored in loca
 
 # Documentation
 
-See [Textual Object](www.textual-object.com) homepage.
+See [Textual Object](https://www.textual-object.com) homepage.
 
 # License
 
